@@ -16,7 +16,7 @@
 
 //     else if (input % 100 == 0 && input % 400 == 0){
 //     alert(input + " is a Leap year");}
-    
+
 //     else {
 //     alert(input + " is not a Leap year");
 //     }
@@ -85,6 +85,22 @@
 //             "invalid  input";
 //             }
 //         }
-        
+
 //     }
 //     check();
+
+
+// **********QUESTION 6**********
+
+// function vowel(str) {             
+//     var newString = " ";                            
+//     for (let i = 0; i < str.length; i++)  
+// {           
+//       if (str[i] != "a" && str[i] != "e" && str[i] != "i" && str[i] != "o" && str[i] != "u")                                   
+//        {           
+//        newString += str[i];         
+//       };   
+//     };   
+//     return newString;   
+//   };  
+//   console.log(vowel(prompt("Enter a string to remove vowels")));
